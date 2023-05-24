@@ -1,0 +1,39 @@
+.sidebar-steps {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: hsl(231, 100%, 99%);
+    margin-left: 5px;
+}
+
+.sidebar-steps-content {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    margin-bottom: 8px;
+}
+
+.sidebar-steps-number {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-steps-number:active {
+    background-color: hsl(228, 100%, 84%)
+}
+
+.sidebar-steps-content p {
+    color: hsl(231, 11%, 63%);
+}
+
+.sidebar-steps-content span {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}

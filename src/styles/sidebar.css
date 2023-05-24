@@ -1,0 +1,32 @@
+.sidebar {
+    margin: 20px;
+    padding: 10px;
+    background-image: url('../assets/images/bg-sidebar-desktop.svg');
+    width: 20%;
+    border-radius: 9px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* .sidebar .active-link {
+    background-color: hsl(228, 100%, 84%);
+}
+
+
+/* Media query for desktop 
+@media (max-width: 1440px) {
+    .sidebar {
+        width: 30%;
+    }
+}
+
+/* Media query for mobile 
+@media (max-width: 375px) {
+    .sidebar {
+        width: 100%;
+        background-image: none;
+        background-color: var(--Magnolia);
+    }
+} 
+*/

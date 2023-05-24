@@ -1,0 +1,52 @@
+.plan-container {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.plan-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.plan-subscription {
+    background-color: hsl(229, 24%, 87%);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.buttons {
+    margin-top: 9px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.buttons .next {
+    background-color: hsl(213, 96%, 18%);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.buttons .back {
+    border: none;
+    background: transparent;
+    color: hsl(231, 11%, 63%);
+    padding: 10px;
+}
+
+.buttons .back:hover {
+    color: hsl(213, 96%, 18%);
+}

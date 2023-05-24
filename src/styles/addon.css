@@ -1,0 +1,41 @@
+.addon {
+    border: 1px solid hsl(243, 100%, 62%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 9px;
+    border-radius: 10px;
+}
+
+.add-container {
+    margin: 20px;
+    height: 70vh;
+}
+
+.add-content {
+    font-size: 16px;
+}
+
+.buttons_1 {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.buttons_1 .back_1 {
+    border: none;
+    background: transparent;
+    color: hsl(231, 11%, 63%);
+    padding: 10px;
+}
+
+.buttons_1 .next_1 {
+    background-color: hsl(213, 96%, 18%);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}

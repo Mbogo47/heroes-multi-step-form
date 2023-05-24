@@ -1,0 +1,46 @@
+.summary-container {
+    margin: 10px;
+    height: 75vh;
+}
+
+.summary-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(229, 24%, 87%);
+    padding: 10px;
+}
+
+.summary-description Link {
+    cursor: pointer;
+}
+
+.summary-container button {
+    margin-top: 10rem;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.summary-container .next {
+    background-color: hsl(213, 96%, 18%);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    float: right;
+    margin-right: 5px;
+}
+
+.summary-container .back {
+    border: none;
+    background: transparent;
+    color: hsl(231, 11%, 63%);
+    padding: 10px;
+}
+
+.summary-container .back:hover {
+    color: hsl(213, 96%, 18%);
+}
+
+.summary-container .span {
+    justify-content: flex-end;
+}

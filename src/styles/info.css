@@ -1,0 +1,36 @@
+.info-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    top: 40px;
+    height: 70vh;
+}
+
+.info-form button {
+    margin-top: 8rem;
+    float: right;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+}
+
+.info-form button:hover {
+    background-color: hsl(213, 96%, 18%);
+    color: white;
+}
+
+.info-form input {
+    /* width: 50%; */
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(229, 24%, 87%);
+    outline: none;
+    cursor: pointer;
+}
+
+.info-form p {
+    margin-top: 4px;
+}
