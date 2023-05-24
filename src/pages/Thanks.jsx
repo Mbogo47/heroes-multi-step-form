@@ -1,6 +1,6 @@
 import iconthankyou from '../assets/images/icon-thank-you.svg'
 import "../styles/thanks.css"
-import React from 'react'
+
 
 function Thanks() {
     return (

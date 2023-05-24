@@ -1,14 +1,15 @@
 import '../styles/selectplan.css'
 
-function Selectplan({ image, name, plan }) {
+function Selectplan({ image, name, plan, duration}) {
     return (
         <div className="description">
             <div>
                 {image}
             </div>
             <div className="description-plan">
-                <p>{name}</p>
-                <p>{plan}</p>
+                <p className='description-plan-name'>{name}</p>
+                <p className='description-plan-plan1'>{plan}</p>
+                <p className='description-plan-duration'>{duration}</p>
             </div>
 
         </div>
