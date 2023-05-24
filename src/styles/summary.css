@@ -1,13 +1,18 @@
 .summary-container {
     margin: 10px;
     height: 75vh;
+    width: 40vw;
+
+
 }
+
 
 .summary-content {
     display: flex;
     justify-content: space-between;
     background-color: hsl(229, 24%, 87%);
-    padding: 10px;
+    /* border-radius: 10px; */
+    
 }
 
 .summary-description Link {
@@ -27,7 +32,8 @@
     padding: 10px;
     border: none;
     float: right;
-    margin-right: 5px;
+     margin-right: 3%; 
+    margin-top: 17%;
 }
 
 .summary-container .back {
@@ -35,6 +41,8 @@
     background: transparent;
     color: hsl(231, 11%, 63%);
     padding: 10px;
+    margin-right: 3%; 
+    margin-top: 17%;
 }
 
 .summary-container .back:hover {

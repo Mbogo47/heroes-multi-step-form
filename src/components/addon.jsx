@@ -4,12 +4,12 @@ function Addon({ service, storage, time }) {
     return (
         <div>
             <form action="" className="addon">
-                <input type="checkbox" />
+                <input type="checkbox"  />
                 <div className="add-content">
-                    <span>{service}</span>
-                    <p>{storage}</p>
+                    <span className="add-content-service" >{service}</span>
+                    <p className="add-content-storage">{storage}</p>
                 </div>
-                <span>{time}</span>
+                <span className="add-content-time">{time}</span>
             </form>
 
 

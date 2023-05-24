@@ -13,12 +13,13 @@ function Plan() {
                 <p>You have the option of monthly or yearly billing.</p>
             </div>
             <div className="plan-content">
-                <Selectplan image={< img src={iconarcade} alt="" />} name="Arcade" plan="$9/mo" />
-                <Selectplan image={< img src={iconadvanced} alt="" />} name="Advanced" plan="$12/mo" />
-                <Selectplan image={< img src={iconpro} alt="" />} name="Pro" plan="$15/mo" />
+                <Selectplan image={< img src={iconarcade} alt="" />} name="Arcade" plan="$90/yr"  duration="2 months free"/>
+                <Selectplan image={< img src={iconadvanced} alt="" />} name="Advanced" plan="$120/yr" duration="2 months free"/>
+                <Selectplan image={< img src={iconpro} alt="" />} name="Pro" plan="$150/yr" duration="2 months free" />
+
             </div>
             <div className="plan-subscription">
-                <span>monthly</span>
+                <span className="plan-subscription-months">monthly</span>
                 <span className="icon"><RxSwitch /></span>
                 <span>yearly</span>
             </div>

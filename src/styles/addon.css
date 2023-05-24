@@ -16,9 +16,18 @@
 .add-content {
     font-size: 16px;
 }
-
+.add-content-time{
+    color:  hsl(243, 100%, 62%);
+}
+.add-content-service{
+    color: black;
+    font-weight: bolder;
+}
+.add-content-storage{
+    color: hsl(231, 11%, 63%);
+}
 .buttons_1 {
-    margin-top: 4rem;
+    margin-top: 11%;
     display: flex;
     justify-content: space-between;
     padding: 8px;
