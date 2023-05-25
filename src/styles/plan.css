@@ -22,6 +22,16 @@
     border-radius: 10px;
 }
 
+.plan-subscription a {
+    text-decoration: none;
+    color:hsl(231, 11%, 63%);
+}
+
+.plan-subscription a:active,
+.plan-subscription a:focus{
+    color:hsl(213, 96%, 18%);
+}
+
 .icon {
     font-size: 20px;
 }
@@ -29,9 +39,9 @@
 .description-plan{
     text-align: justify;
     width: 10vw;
-    height: 16vh;
-    
+    height: 16vh;    
 }
+
 .description-plan-name{
     font-weight: bold;
 }
@@ -51,9 +61,7 @@
     display: flex;
     justify-content: space-between;
     padding: 8px;
-    cursor: pointer;
-    
-    
+    cursor: pointer; 
 }
 
 .buttons .next {

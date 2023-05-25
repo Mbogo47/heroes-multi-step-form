@@ -6,29 +6,24 @@ import '../styles/plan.css'
 import { Link } from "react-router-dom"
 import { RxSwitch } from 'react-icons/rx'
 
-
-function Plan() {
+function Yearly() {
     return (
         <div className="plan-container">
             <div className="plan-header">
                 <h2>Select your plan</h2>
                 <p>You have the option of monthly or yearly billing.</p>
             </div>
+
             <div className="plan-content">
-                <Selectplan image={< img src={iconarcade} alt="" />} name="Arcade" plan="$9/mo" />
-                <Selectplan image={< img src={iconadvanced} alt="" />} name="Advanced" plan="$12/mo" />
-                <Selectplan image={< img src={iconpro} alt="" />} name="Pro" plan="$15/mo" />
-
+                <Selectplan image={< img src={iconarcade} alt="" />} name="Arcade" plan="$90/yr" duration="2 months free" />
+                <Selectplan image={< img src={iconadvanced} alt="" />} name="Advanced" plan="$120/yr" duration="2 months free" />
+                <Selectplan image={< img src={iconpro} alt="" />} name="Pro" plan="$150/yr" duration="2 months free" />
             </div>
-            <div className="plan-subscription">
-                <Link to={'/plan'}>
-                    <a href=""> monthly</a>
-                </Link>
-                <span className="icon"><RxSwitch /></span>
-                <Link to={'/yearly'}>
-                    <a className="plan-subscription-months">yearly</a>
-                </Link>
 
+            <div className="plan-subscription">
+                <Link to={'/plan'}> <span className="plan-subscription-months">monthly</span></Link>
+                <span className="icon"><RxSwitch /></span>
+                <Link to={'/yearly'}><span>yearly</span></Link>
             </div>
             <div className="buttons">
                 <Link to={'/'}><button className="back">Go back</button></Link>
@@ -41,4 +36,6 @@ function Plan() {
     )
 }
 
-export default Plan
+
+
+export default Yearly

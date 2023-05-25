@@ -4,6 +4,7 @@ import Plan from "../pages/Plan"
 import Add_ons from "../pages/Add-ons"
 import Summary from "../pages/Summary"
 import Thanks from "../pages/Thanks"
+import Yearly from "../pages/Yearly"
 
 const Mainpage = () => {
     return (
@@ -15,14 +16,10 @@ const Mainpage = () => {
                     <Route path='/add-ons' element={<Add_ons />} />
                     <Route path='/summary' element={<Summary />} />
                     <Route path='/thanks' element={<Thanks />} />
-
+                    <Route path='/yearly' element={<Yearly />}></Route>
                 </Routes>
 
             </BrowserRouter>
-            {/* <Info /> */}
-            {/* <Plan /> */}
-            {/* <Add_ons /> */}
-            {/* <Summary />/ */}
         </div>
     )
 }
